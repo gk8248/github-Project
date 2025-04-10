@@ -187,7 +187,7 @@ git push origin bug-fix-typo`}
                         <p className="text-green-500">Total 3 (delta 2), reused 0 (delta 0), pack-reused 0</p>
                         <p className="text-green-500">remote: Processing changes: refs: 1, done</p>
                         <p className="text-green-500">To https://github.com/username/simple-interest-calculator</p>
-                        <p className="text-green-500"> * [new branch]      bug-fix-typo -> bug-fix-typo</p>
+                        <p className="text-green-500"> * [new branch]      bug-fix-typo -&gt; bug-fix-typo</p>
                       </div>
                     )}
                   </div>
@@ -221,7 +221,7 @@ git push origin main`}
                           <p className="text-green-500"> README.md | 2 +-</p>
                           <p className="text-green-500"> 1 file changed, 1 insertion(+), 1 deletion(-)</p>
                           <p className="text-green-500">To https://github.com/username/simple-interest-calculator</p>
-                          <p className="text-green-500">   a1b2c3d..3e4c5d6  main -> main</p>
+                          <p className="text-green-500">   a1b2c3d..3e4c5d6  main -&gt; main</p>
                         </div>
                         
                         <div className="p-4 bg-muted rounded">
@@ -252,7 +252,7 @@ git push origin main`}
                     
                     <ol className="list-decimal list-inside space-y-2">
                       <li>Go to your forked repository on GitHub</li>
-                      <li>Click on "Contribute" > "Open pull request"</li>
+                      <li>Click on "Contribute" {">"} "Open pull request"</li>
                       <li>Fill in the PR title and description</li>
                       <li>Click "Create pull request"</li>
                     </ol>
