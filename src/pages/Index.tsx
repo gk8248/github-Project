@@ -27,7 +27,12 @@ const Index = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Header activePart={activePart} setActivePart={setActivePart} />
+      <Header 
+        activePart={activePart} 
+        setActivePart={setActivePart} 
+        part1Data={part1Data}
+        part2Data={part2Data}
+      />
       
       <main className="flex-grow">
         {activePart === "part1" && (
